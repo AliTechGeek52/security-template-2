@@ -19,3 +19,31 @@ $('.slide-nav').on('click', function (e) {
         }, 800);
     }
 });
+
+
+// navbar javascript
+
+let openMenu = document.getElementsByClassName('fa-bars')[0]
+let closeMenu = document.getElementsByClassName('fa-times')[0]
+let navlinks = document.getElementsByClassName('nav-links')[0]
+
+openMenu.addEventListener('click', ()=>{
+    navlinks.style.left = ("0")
+});
+
+closeMenu.addEventListener('click', ()=>{
+    navlinks.style.left = ("100%")
+});
+
+
+// slider automation
+
+var count = 1;
+
+setInterval(function(){
+    document.getElementById('click' + count).click();
+    count++;
+    if(count > 3){
+        count = 1;
+    }
+}, 5000);

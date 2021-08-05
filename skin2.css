@@ -9,14 +9,19 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Poppins', sans-serif;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 62.5%;
-  --clr-primary: #e74a3e;
+  --clr-primary: #c0272d;
   --clr-primary-dark: #bd170b;
   --clr-secondary: #000000;
   --clr-gray: #dddddd;
@@ -290,47 +295,7 @@ html {
 }
 
 /* slider end */
-/* heading */
-.MainHeading {
-  font-size: 60px;
-  font-weight: 900;
 
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  /* background-color: darkgray; */
-}
-.head-main {
-  margin: 60px 0;
-}
-.SpanColor {
-  color: var(--clr-primary);
-}
-.spanDesc {
-  /* background-color: darkcyan; */
-  text-align: center;
-}
-.spanDesc p {
-  font-size: 15px;
-  margin-bottom: 10px;
-  color: var(--clr-secondary-light);
-}
-
-.divMainHeading {
-  display: flex;
-  /* background-color: green; */
-  height: 20px;
-  margin-left: 25%;
-}
-.divMainHeadingSubDiv {
-  /* background-color: gold;  */
-  width: 30%;
-  border-top: 3px dashed firebrick;
-  margin-top: 9px;
-}
-.divMainHeading img {
-  margin: 0 10px;
-}
-/* heading end */
 /* section service start */
 .section-serv {
   right: 0;
@@ -767,7 +732,9 @@ html {
   flex-direction: column;
   justify-content: space-around;
   /* background-color: var(--clr-primary) ;  */
-  background: linear-gradient(to top, #bd170b, 30%, #e74a3e);
+  /* background: linear-gradient(to top, #bd170b, 30%, #e74a3e); */
+  background: linear-gradient(to top, #BD170B, 30%, #c0272d);
+
 }
 .box3 {
   background-image: url(img/news3.jpg);
@@ -780,7 +747,7 @@ html {
   flex-direction: column;
   justify-content: space-around;
   /* background-color: var(--clr-primary) ;  */
-  background: linear-gradient(to left, #bd170b, 30%, #e74a3e);
+  background: linear-gradient(to left, #bd170b, 30%, #c0272d);
 }
 .box5 {
   background-image: url(img/ourteam2.jpg);
@@ -795,7 +762,7 @@ html {
   flex-direction: column;
   justify-content: space-around;
   /* background-color: var(--clr-primary) ;  */
-  background: linear-gradient(to right, #bd170b, 30%, #e74a3e);
+  background: linear-gradient(to right, #bd170b, 30%, #c0272d);
 }
 .icons-guards {
   display: flex;
@@ -841,167 +808,137 @@ html {
 
 /* new footer */
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:var(--clr-primary);
-    color: white;
-    font-family: "Poppins" ,sans-serif;
-    font-size: 14px;
-  
-  }
-  
-  
-  /* Create two equal columns that floats next to each other */
-  .column-foot {
   display: flex;
-  flex-direction:column;
-   float: left;
-   width: 24%;
-   padding: 55px;
-   height:300px; /* Should be removed. Only for demonstration */
-  margin:5px;
-  }
-  
-  .row-foot{
-    padding: 36px;
-  }
-  /* Clear floats after the columns */
-  .row-foot:after {
-     display: flex;
-  
-   content: "";
-   display: table;
-   clear: both;
-  }
-  
-  
-  #input
-  {
-     border-style:double;
-     font-size:20px;
-  }
-  
-  #hh1
-  {
-     
-     font-size: 18px;
-     margin-left:58px;
-     margin-top:2px;
-     color:white;
-  
-     
-  }
-  #hh2
-  {
-     font-size: 25px;
-     
-     margin-top:2px;
-     color:var(--clr-secondary);
-     font-weight: 900;
-  }
-  
-  
-  .i1{
-           color:var(--clr-secondary);
-           left:12pc;
-           padding:5px;
-           font-size:20px;
-           text-align: center;
-       
-         }
-  
-         .i{
-           color: white;
-           padding:5px;
-           font-size:40px;
-           text-align: center;
-       
-         }
-         
-  #pg
-  
-  {
-   text-align: center;
-   margin-left: -36%;
-  
-   color:white;
-   font-size: 15px;
-  
-   
-  }
-  #copy
-  {
-   display: flex;
-   justify-content:space-between;
-   align-items:center;
-   background-color:rgb(0, 0, 0);
-   color:white;
-   height:80px;
-   text-align:left;
-   padding: 40px;
-   width: 100%;
-  
-  }
-  
-  .span-guards {
-        width: 100px;
-      height: 3px;
-      background-color: #ffffff;
-      position: relative;
-      left: 2px;
-      top: 20px;
-      border-radius: 30%;
-      margin-bottom: 30px;
-      margin-top: -85px;
-    
-  
-  }  
-  .col    
-  {
-   text-align: left;
-   margin-top:100px;
-   font-size: 16px;
-   padding-left:-50px;
-  
-   
-  } 
-  
-  
-  
-  .foot-container{
-   width: 100%;
-   padding: 0px 10px;
-  }
-  
-  
-  .bottom-foot{
-   width: 100%;
-     padding: 15px 200px;
-     background-color:var(--clr-secondary);
-     display: flex;
-     justify-content: space-between;
-     height: 50px;
-  
-  }
-  .main-para{
-   margin: 20px 0;
-  }
-  
-  .nav-foot ul{
-   list-style: none;
-   display: flex;
-  }
-  
-  .nav-foot a{
-   text-decoration: none;
-   padding: 0 10px;
-   color: #f2f2f2;
-   font-weight: 600;
-  }
-  /* footer  end*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--clr-primary);
+  color: white;
+  font-family: poppins;
+  font-size: 14px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-foot {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  float: left;
+  width: 24%;
+  padding: 30px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin: 5px;
+}
+
+.row-foot {
+  padding-top: 60px;
+}
+/* Clear floats after the columns */
+.row-foot:after {
+  display: flex;
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#input {
+  border-style: double;
+  font-size: 20px;
+}
+
+#hh1 {
+  font-size: 18px;
+  margin-left: 58px;
+  margin-top: 2px;
+  color: white;
+}
+#hh2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 10px;
+  color: var(--clr-secondary);
+}
+
+.i1 {
+  color: var(--clr-secondary);
+  /* left:12pc; */
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.i {
+  color: white;
+  padding: 5px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#pg {
+  text-align: center;
+  margin-left: -36%;
+
+  color: white;
+  font-size: 15px;
+}
+#copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 80px;
+  text-align: left;
+  padding: 40px;
+  width: 100%;
+}
+
+.span {
+  width: 50px;
+  height: 3px;
+  background-color: var(--clr-light);
+  position: relative;
+  left: 2px;
+  top: 20px;
+}
+.col {
+  text-align: left;
+  margin-top: 100px;
+  font-size: 16px;
+  padding-left: -50px;
+}
+
+.foot-container {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.bottom-foot {
+  width: 100%;
+  padding: 15px 200px;
+  background-color: var(--clr-secondary);
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.main-para {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.nav-foot ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-foot a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #f2f2f2;
+  font-weight: 600;
+}

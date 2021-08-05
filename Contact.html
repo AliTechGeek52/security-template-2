@@ -1,0 +1,545 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
+<link rel="stylesheet" href="skin.css">
+<!-- <link rel="stylesheet" href="skin2.css"> -->
+
+
+<html>
+  <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+  }
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  --clr-primary: #c0272d;
+  --clr-primary-dark: #BD170B;
+  --clr-secondary: #000000;
+  --clr-gray: #dddddd;
+  --clr-light: #ffff;
+  --clr-white-smoke: #EBEBEB;
+  --clr-secondary-light: #292929;
+}
+.section-contact
+{
+    height:80%;
+    width:100%;
+    background-image: url("img/Contact_Us.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  
+
+  
+}
+
+.section-form
+{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom: 50px;;
+
+}
+.box1
+
+{
+   
+  padding:20px;
+ background-color: white ;
+ border: 3px;
+  margin: 2px;
+  height:25%;
+  width:50%;
+  padding:20px;
+  
+
+}
+
+   .h1
+   {
+   
+     padding-top:370px;
+     padding-left:210px;
+     text-decoration: 2px dotted black;
+     font-size: 75px;
+     color:white;
+
+   }
+ 
+   .input-container {
+  /* IE10 */
+  display: flex;
+  width: 100%;
+ margin-top:0px;
+ color:black;
+
+
+
+}
+
+
+
+.input-field {
+    margin-top:40px;
+  width: 100%;
+  padding:30px;
+  color:black;
+  border-top: 5px;
+  border-left: 5px;
+  border-right: 5px;
+  font-size: 18px;
+  
+}
+
+
+
+
+.btn {
+  font-size:18px;
+  background-color: transparent;
+ color:black;
+  padding: 15px 20px;
+ border: 1px solid black;
+ border-radius:30px ;
+  width: 20%; 
+  margin-top:50px;
+
+}
+
+/* .i
+{
+    font-size:50px;
+    color:var(--clr-primary-dark);
+    text-align: right;
+    margin-top: 20px;
+} */
+.contact-i
+{
+    font-size:30px;
+    color:black;
+    text-align: right;
+    margin-top: 20px;
+}
+.contact-head{
+    text-align: center;
+    font-size:100px;
+    color: var(--clr-primary-dark);
+    /* border-bottom: black; */
+   
+}
+
+.card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    padding:10px;
+    margin:20px;
+}
+.grid-33 {
+      grid-template-columns: 400px 400px 400px;
+      grid-column-gap: 4px;
+  }
+  .grid-contact {
+    display: grid;
+   
+   padding:70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+   
+}
+
+
+/* heading */
+.MainHeading{
+ font-size: 60px;
+ font-weight: 900;
+
+ 
+ font-family: "Poppins" , sans-serif;
+ text-align: center;
+ /* background-color: darkgray; */
+    }
+    .head-main{
+      margin: 60px 0;
+    }
+    .SpanColor{
+        color:var(--clr-primary);
+    }
+    .spanDesc{ 
+        /* background-color: darkcyan; */
+        text-align: center;
+       
+    }
+    .spanDesc p{ 
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: var(--clr-secondary-light);
+       
+    }
+            
+
+    .divMainHeading{
+        display: flex;
+       /* background-color: green; */
+       height: 20px; 
+       margin-left: 25%;
+    }
+   .divMainHeadingSubDiv{
+    /* background-color: gold;  */
+    width: 30%; 
+    border-top: 3px dashed firebrick;
+   margin-top: 9px;
+   }
+/* heading end */
+.column-foot {
+    padding: 27px;
+    height: 330px;
+}
+
+    </style>
+    <body>
+      <header>
+        <nav>
+            <div class="navbar">
+              <i class="fas fa-bars"></i>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">Security</span>
+                  <i class="fas fa-times"></i>
+                </div>
+                <ul class="menus">
+                  <li><a class="waves" href="index.html">
+                    <span style="--spell:1;">H</span>
+                    <span style="--spell:2;">o</span>
+                    <span style="--spell:3;">m</span>
+                    <span style="--spell:4;">e</span>
+                  </a></li>
+                  <li>
+                    <a class="waves" href="about-us.html">
+                      <span style="--spell:1;">A</span>
+                      <span style="--spell:2;">b</span>
+                      <span style="--spell:3;">o</span>
+                      <span style="--spell:4;">u</span>
+                      <span style="--spell:5;">t</span>
+                    </a>
+                    <ul class="sub-menu">
+                      <li><a class="" href="about-us.html#vision">Our Vision</a></li>
+                      <li><a class="" href="about-us.html#service">Our Experience</a></li>
+                      <li><a class="" href="about-us.html#policies">Our Policies</a></li>
+                      <li><a class="" href="about-us.html#prices">Our Prices</a></li>
+                      <li><a class="" href="#">Our Accreditations</a></li>
+                      <li><a class="" href="about-us.html#team">Our Team</a></li>
+                      <li><a class="" href="about-us.html#partners">Our Partners</a></li>
+                    </ul>
+                  </li>
+    
+                  <li>
+                    <a class="waves" href="#">
+                      <span style="--spell:1;">S</span>
+                      <span style="--spell:2;">e</span>
+                      <span style="--spell:3;">c</span>
+                      <span style="--spell:4;">t</span>
+                      <span style="--spell:5;">o</span>
+                      <span style="--spell:6;">r</span>
+                      <span style="--spell:7;">s</span>
+                    </a>
+                    <ul class="sub-menu">
+                      <li><a class="" href="#">Construction</a></li>
+                      <li><a class="" href="#">Corporate</a></li>
+                      <li><a class="" href="#">Industrial</a></li>
+                      <li><a class="" href="#">Retail</a></li>
+                      <li><a class="" href="#">Logistics</a></li>
+                      <li><a class="" href="#">Property</a></li>
+                      <li><a class="" href="#">Management</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="waves" href="#">
+                      <span style="--spell:1;">S</span>
+                      <span style="--spell:2;">e</span>
+                      <span style="--spell:3;">r</span>
+                      <span style="--spell:4;">v</span>
+                      <span style="--spell:5;">i</span>
+                      <span style="--spell:6;">c</span>
+                      <span style="--spell:7;">e</span>
+                      <span style="--spell:8;">s</span>
+                    </a>
+                    <ul class="sub-menu">
+                      <li><a class="" href="static-security.html">Static Security</a></li>
+                  <li><a class="" href="mobile-patroling.html">Mobile Patrolling</a></li>
+                  <li><a class="" href="cctv-monitoring.html">CCTV Monitoring</a></li>
+                  <li><a class="" href="lock-unlock.html">Lock & unlock</a></li>
+                  <li><a class="" href="vacant-unit-checks.html">Vacant Unit Checks</a></li>
+                  <li><a class="" href="technology-products.html">Technology Product</a></li>
+                  <li><a class="" href="manned-guarding.html">Manned Guarding</a></li>
+                  <li><a class="" href="support-management.html">Support & Management</a></li>
+                  <li><a class="" href="event-security.html">Event Security</a></li>
+                  <li>
+                    <a class="" href="guard-house.html">Guard House</a>
+                  </li>
+                  <li>
+                    <a class="" href="247-surveillance.html"
+                      >24/7 Surveillance</a
+                    >
+                  </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="logo"><a href="#">Security</a></div>
+              <div class="nav-links">
+                <!-- <div class="sidebar-logo">
+                  <span class="logo-name">Security</span>
+                  <i class="fas fa-times"></i>
+                </div> -->
+                <ul class="menus">
+    
+     
+    
+                  <li><a class="waves" href="Contact.html">
+                    <span style="--spell:1;">C</span>
+                    <span style="--spell:2;">o</span>
+                    <span style="--spell:3;">n</span>
+                    <span style="--spell:4;">t</span>
+                    <span style="--spell:5;">a</span>
+                    <span style="--spell:6;">c</span>
+                    <span style="--spell:7;">t</span>
+                  </a></li>
+                  <li><a  href="#"><lord-icon
+                    src="https://cdn.lordicon.com/msoeawqm.json"
+                    trigger="hover"
+                    colors="primary:#ffffff,secondary:#c0272d"
+                    style="width:40px;height:40px">
+                </lord-icon></a></li>
+                  <li><a href="#"><lord-icon
+                    src="https://cdn.lordicon.com/slkvcfos.json"
+                    trigger="hover"
+                    colors="primary:#ffffff,secondary:#c0272d"
+                    style="width:50px;height:50px">
+                </lord-icon></a></li>
+                <li><span class="call-to-action waves" href="#">
+                  <span style="--spell:1;"><i class="fas fa-phone-alt"></i></span>
+                  <span style="--spell:2;">0</span>
+                  <span style="--spell:3;">9</span>
+                  <span style="--spell:4;">0</span>
+                  <span style="--spell:5;">-</span>
+                  <span style="--spell:6;">3</span>
+                  <span style="--spell:7;">4</span>
+                  <span style="--spell:8;">5</span>
+                  <span style="--spell:9;">-</span>
+                  <span style="--spell:10;">4</span>
+                  <span style="--spell:11;">5</span>
+                  <span style="--spell:12;">5</span>
+                </span>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="header-img-serv">
+      <div class="head-img-text">
+          <h1>Contact Us</h1>
+          <div class="dash"></div>
+
+      </div>
+
+
+
+      <img src="img/banners/contact-banner.jpg" alt="">
+
+  </section>
+    
+  <div class="section-form">
+<div class="box1">
+    <form action="/action_page.php">
+    <section class="head-main">
+      <div class="MainHeading"><span class="SpanColor"> OUR </span> SERVICES</div>
+      <div class="spanDesc">
+        <p>Our Services are best in town and premium Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="divMainHeading">
+        <div class="divMainHeadingSubDiv" data-aos="fade-left"></div> <img class="dot" src="dot.png" data-aos="fade">
+        <div class="divMainHeadingSubDiv" data-aos="fade-right"> </div>
+      </div>
+    </section>
+        <div class="input-container">
+        
+         <input class="input-field" type="text" placeholder="Name" name="Name">
+          
+        </div>
+        <input class="input-field" type="text" placeholder="Company Name" name="Company Name">
+        <div class="input-container">
+          
+          
+        </div>
+      
+        <div class="input-container">
+         
+          <input class="input-field" type="email" placeholder="Email" name="email">
+          
+        </div>
+        <div class="i"><i class="fab fa-facebook-f contact-i "></i>
+          <i class="fab fa-youtube contact-i "></i>
+          <i class="fab fa-google contact-i "></i>
+           <i class="fab fa-twitter contact-i "></i>
+      </div>
+        
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+
+</div>
+
+
+  </div>
+    
+  <div class="contact-text">
+    <section class="head-main">
+      <div class="MainHeading"><span class="SpanColor">Our</span> Address</div>
+      <div class="divMainHeading">
+        <div class="divMainHeadingSubDiv"></div> <img src="dot.png" width="2%">
+        <div class="divMainHeadingSubDiv"> </div>
+      </div>
+    </section>
+    
+    <div class="grid-contact grid-33 ">
+        <div class="card-cont">
+          <lord-icon
+          src="https://cdn.lordicon.com/zzcjjxew.json"
+          trigger="loop"
+          colors="primary:#121331,secondary:#bd170b"
+          stroke="35"
+          style="width:100px;height:100px">
+      </lord-icon>
+        <h4>Address</h4>
+        <p>109 Street , london England</p>
+        </div>
+        <div class="card-cont">
+          <lord-icon
+          src="https://cdn.lordicon.com/ltxkhbfa.json"
+          trigger="loop"
+          colors="primary:#121331,secondary:#c0272d"
+          style="width:100px;height:100px">
+      </lord-icon>
+            <h4>Contact</h4>
+            <p>090078601.</p>
+        </div>
+        <div class="card-cont">
+    
+          <lord-icon
+              src="https://cdn.lordicon.com/rhvddzym.json"
+              trigger="loop"
+              colors="primary:#bd170b,secondary:#000000"
+              style="width:100px;height:100px">
+          </lord-icon>
+            <h4>Email</h4>
+            <p>info@security.com</p>
+        </div>
+    </div>
+    </div>
+      <!-- footer start -->
+  <footer>
+    <div class="footer">
+ 
+
+      <div class="row-foot">
+        
+        
+       
+       <div class="column-foot">
+          <div class="span"></div>
+          <h2 id="hh1">Citrix</h2>
+          <h1 id="hh2" >Consultancy</h1>
+          <p class="main-para">Visualize quality intellectual capital without superior collaboration and idea sharing installed base portals.</p>
+          <p><i class="fas fa-map-marker-alt i1 "></i> Address :4010 Feeney Way</p>
+        
+            <p> <i class="fas fa-phone-alt i1 "></i>020 7946 0020  </p>
+          
+            <p><i class="fas fa-envelope i1"></i>critrixconsultancy@gmail.com</p>
+        
+        </div>
+        <div class="column-foot" >
+          <div class="span"></div>
+          <h2 id="hh1">Our Locations</h2>
+          <h1 id="hh2" >Where to find us?</h1>
+         <img class="foot-img" src="https://i.ibb.co/L0HJLvC/img-footer-map.png" height="200px" alt="img-footer-map" border="0">
+       
+        </div>
+        
+        <div class="column-foot" style="background-color:transparent">
+          <div class="col"> 
+            <p><i class="fas fa-map-marker-alt i1 "></i> San Diego: 619 270 8578  </p>
+         
+              <p><i class="fas fa-map-marker-alt i1 "></i> Ontario: 613 285 5534</p> 
+              <p><i class="fas fa-map-marker-alt i1 "></i>London: 020 7946 0020 </p>
+             
+             
+            
+              
+            </div>
+          
+     
+        
+          </div>
+         
+     <div>
+      <div class="column-foot">
+          <div class="span"></div>
+          <h2 id="hh1">Get in touch</h2>
+          <h1 id="hh2" >Citrix Social links</h1>
+          <p class="main-para">Taking seamless key performance indicators offline to maximise the long tail</p>
+          <p>
+            <i class="fab fa-facebook i "></i>
+            <i class="fab fa-twitter-square i "></i>
+            <i class="fab fa-pinterest i "></i>
+            <i class="fab fa-linkedin i"></i>
+           </p>    
+        </div>
+      </div>
+      
+     
+   
+  </div>
+  
+  
+  <div class="bottom-foot">
+  <div class="copyright">
+    <p>Copyright © 2021 CITRIX CONSULTANCY. All Rights Reserved.</p>
+  </div>
+  
+  
+  </div>
+  </footer>
+    <script>
+      AOS.init({
+        once: true,
+        offset: 300,
+        delay: 500
+      }
+      );
+    </script>
+    </body>
+    </html>
