@@ -9,6 +9,9 @@
 /* nav */
 /* navbar */
 /* navbar */
+.logo-png {
+  width: 100px;
+}
 
 nav {
   position: absolute;
@@ -386,6 +389,96 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 }
 
 /* nav end */
+/* about page */
+/* about media query  */
+@media screen and (min-width: 760px) and (max-width: 1300px) {
+  .container-about {
+    padding: 0px 10px;
+  }
+  .container-policies {
+    padding: 70px !important;
+  }
+
+  .vision-top-content h1 {
+    font-size: 4vw;
+  }
+  .flex-about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-content {
+    padding: 0px;
+    padding-left: 23px;
+  }
+
+  /* accredation */
+  .accre-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .accre-card {
+    background-color: var(--clr-white-smoke);
+    width: 100px;
+    margin: 20px 40px;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  .accre-card img {
+    width: 100px;
+  }
+  .accre-card h4 {
+    font-size: 10px;
+    padding: 0 20px;
+  }
+  .accre-card p {
+    font-size: 10px;
+    padding: 20px 20px;
+  }
+  .our-accrediation-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-policies {
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .accre-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexi-row {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .container-policies {
+    padding: 0 !important;
+    flex-direction: column;
+  }
+
+  .flex-about {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .vision-bottom-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  } */
+  .container-content {
+    padding: 0px !important;
+    padding-left: 23px;
+  }
+  .flex-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-about {
+    padding: 0px;
+  }
+}
+/* about media query end */
 .header-img img {
   width: 100%;
   background-position: center;
@@ -422,8 +515,8 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
   /* flex-wrap: wrap; */
 }
 .container-content {
-  padding: 0 110px;
-  padding-left: 200px;
+  padding: 0 90px;
+  /* padding-left: 200px; */
 }
 
 .vision-img img {
@@ -433,20 +526,23 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
   height: 400px;
 }
 .vision-top-content h1 {
-  font-size: 60px;
+  font-size: 4vw;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
 .vision-top-content p {
-  font-size: 15px;
+  font-size: 1.4vw;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   color: var(--clr-secondary-light);
 }
-.vision-bottom-content {
+/* .vision-bottom-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+} */
+.flex-cont {
+  display: flex;
 }
 .vision-bottom-content p {
   font-size: 13px;
@@ -479,49 +575,25 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
   padding-bottom: 10px;
 }
 .container-experience {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 100px;
-  grid-row-gap: 10px;
-  /* padding: 20px 90px; */
-  justify-content: space-between;
+  grid-row-gap: 10px;*/
+  padding: 20px 90px;
+  /* justify-content: space-between; */
 }
 .pp p {
   font-size: 13px;
   margin-top: 10px;
 }
-.exp-card1 {
+
+.exp-card {
   width: 300px;
   height: 200px;
-  /* background-color: aqua; */
-  grid-area: 1 / 1 / 2 / 2;
+  padding: 20px 20px;
 }
-.exp-card2 {
-  width: 300px;
-  height: 200px;
-  grid-area: 1 / 2 / 2 / 3;
-}
-.exp-card3 {
-  width: 300px;
-  height: 200px;
-  grid-area: 1 / 3 / 2 / 4;
-}
-.exp-card4 {
-  width: 300px;
-  height: 200px;
-  grid-area: 2 / 1 / 3 / 2;
-}
-.exp-card5 {
-  width: 300px;
-  height: 200px;
-  grid-area: 2 / 2 / 3 / 3;
-}
-.exp-card6 {
-  width: 300px;
-  height: 200px;
-  grid-area: 2 / 3 / 3 / 4;
-}
+
 /* clients */
 
 /* Client Section Css */
@@ -532,6 +604,7 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 .brand-carousel {
   background: linear-gradient(to top, #bd170b, 30%, #c0272d);
 }
+
 .owl-dots {
   text-align: center;
   margin-top: 4%;
@@ -551,61 +624,61 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 
 /* our policies */
 
-.parent {
+.container-policies {
+  padding: 0 330px;
+  display: flex;
+  justify-content: center;
+}
+.paradiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexi-row {
+  display: flex;
+  padding: 20px 10px;
+}
+
+/* .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   justify-content: center;
-}
+} */
 
 .policy-top {
-  grid-area: 1 / 2 / 2 / 4;
+  height: 100px;
+  margin-bottom: 20px;
 }
-.div2 {
-  height: 10px;
-  grid-area: 2 / 2 / 3 / 3;
+.divi {
+  padding: 60px 20px;
+  /* grid-area: 2 / 2 / 3 / 3; */
 }
-.div3 {
-  grid-area: 2 / 3 / 3 / 4;
-}
-.div4 {
-  grid-area: 3 / 2 / 4 / 3;
-}
-.div5 {
-  grid-area: 3 / 3 / 4 / 4;
-}
-.div6 {
-  grid-area: 4 / 2 / 5 / 3;
-}
-.div7 {
-  grid-area: 4 / 3 / 5 / 4;
-}
+
 .div8 {
   background-image: url(img/side.png);
   background-repeat: no-repeat;
-  grid-area: 1 / 4 / 5 / 5;
+  /* grid-area: 1 / 4 / 5 / 5; */
 }
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
   .parent {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
-}
+} */
 /* .policy {
   width: 100%;
   height: 100vh;
 } */
 .policy-top {
-  height: 200px;
-  padding: 0 80px;
+  padding: 0 15px;
 }
 .policy-top p {
   font-size: 20px;
 }
 .contain-sub {
-  padding: 0 80px;
+  padding: 0px 15px;
 }
 .contain-sub p {
   font-size: 13px;
@@ -1080,3 +1153,31 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 }
 
 /* sector pages end */
+/* about us page accrediation cards section */
+
+.accre-row {
+  display: flex;
+}
+
+.accre-card {
+  background-color: var(--clr-white-smoke);
+  width: 250px;
+  margin: 20px 40px;
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.accre-card img {
+  width: 250px;
+}
+.accre-card h4 {
+  font-size: 18px;
+  padding: 0 20px;
+}
+.accre-card p {
+  font-size: 14px;
+  padding: 20px 20px;
+}
+.our-accrediation-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

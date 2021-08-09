@@ -458,12 +458,12 @@ html {
 
 .card-header .card-main {
   color: var(--clr-secondary);
-  font-size: 5rem;
+  font-size: 30px;
   text-transform: uppercase;
 }
 .card-header .card-child {
   color: var(--clr-primary);
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -503,6 +503,11 @@ html {
   padding-bottom: 0;
 }
 
+.mid {
+  background: var(--clr-light);
+  border: 0.2px solid rgb(238, 238, 238);
+}
+
 .card-body {
   padding: 30px 20px;
   text-align: center;
@@ -533,6 +538,10 @@ html {
     width: 80%;
   }
 }
+@media screen and (max-width: 1560px){
+.card-header .card-main {
+    font-size: 30px;
+}}
 /* section prize card end */
 
 .wrapper2 {
