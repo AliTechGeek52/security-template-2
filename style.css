@@ -593,12 +593,16 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 }
 @media (max-width: 1066px) {
   .pokemon__img {
-    max-height: 72.4vw;
-    left: 8%;
+    max-height: 55.4vw;
+    left: 28%;
   }
+  .slider-temp2 {
+    height: 550px;
+
+}
   .guard2__img {
-    max-height: 72.4vw;
-    /* left: 8%; */
+    max-height: 55.4vw;
+    left: 28%;
   }
 
   .text--big {
@@ -612,11 +616,11 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 }
 @media (max-width: 900px) {
   .flex__item {
-    height: 770px;
+    height: 550px;
   }
 
   .bg-line {
-    height: 770;
+    height: 550;
   }
 
   .flex__container {
@@ -1360,7 +1364,7 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
 }
 @media (max-width: 1500px) {
   .container-guards {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
   }
 }
 /* our guards end  */
@@ -1771,7 +1775,7 @@ b {
   /* align-items: center; */
   /* border: 1px solid rgb(218, 218, 218); */
   /* box-shadow: 0 0 40px -10px rgb(0 0 0 / 25%); */
-  padding: 50px;
+  padding: 70px;
 
 }
 .accrediation img {
@@ -1963,3 +1967,13 @@ color: var(--clr-primary);
   font-size: 30px;
 }
   }
+
+  @media screen and (max-width: 578px) {
+  .bts-popup-container {
+    width: 70%;
+    margin: 4em 2em;
+    height: auto;
+}
+  }
+
+
