@@ -1973,7 +1973,7 @@ color: var(--clr-primary);
   @media screen and (max-width: 578px) {
   .bts-popup-container {
     width: 70%;
-    margin: 4em 6em;
+    margin: 4em 5em;
     height: auto;
 }
   }
