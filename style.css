@@ -597,7 +597,7 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
     left: 28%;
   }
   .slider-temp2 {
-    height: 550px;
+    height: 600px;
 
 }
   .guard2__img {
@@ -624,7 +624,7 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
   }
 
   .flex__container {
-    height: 800px;
+    height: 600px;
   }
 }
 
@@ -704,9 +704,10 @@ nav .navbar .nav-links .menus li > .contact-btn:hover {
   height: 600px;
   width: 100%;
   left: 0;
-  top: 65%;
+  top: 48%;
   background: var(--clr-primary);
   clip-path: polygon(100% 0, 100% 9%, 15% 14%, 0 100%, 0 4%);
+	z-index: -100;
 }
 
 .wrapper-flex {
